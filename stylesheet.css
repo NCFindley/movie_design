@@ -1,0 +1,63 @@
+.navbar{
+
+	background-color: black;
+	width: 175px;
+
+}
+
+.navbar__search{
+
+	background-color: red;
+
+}
+
+.navbar__title{
+	color: grey;
+	font-size: 75%;
+
+}
+
+.main{
+	color: white;
+
+
+}
+
+.main__items{
+
+
+
+
+}
+
+.circles{
+	color: white;
+
+
+}
+
+.collections{
+	color: white;
+
+
+}
+
+
+.row{
+	display: flex;
+	flex-flow: row wrap;
+	position: absolute;
+	top:  20%;
+	left: 25%;
+}
+
+.movie{
+	padding-left: 5%;
+
+
+}
+.movie__image{
+	height: 200px;
+	width: 150px;
+	
+}
