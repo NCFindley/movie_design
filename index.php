@@ -10,7 +10,8 @@
 		<div class = "search"> 
 			<div class = "search__1">
 				<span class="search_icon"></span>
-				<input type="search" id = "search_search" placeholder="Search movies">
+				<input type="search" id = "search__box" placeholder="Search movies">
+			</div>
 
 		</div>
 
@@ -44,30 +45,101 @@
 
 	</div>
 
-	<div class="row">
+<!-- Header   -->
+	<div class = "header">
+		<h1>Discover</h1>
 
-		<div class="movie">
-		<img class = "movie__image" src="The Wolverine.jpeg">
-		<h2>The Wolverine</h2>
-		<p>Action, Adventure</p>
-		<p>126 min</p>
-		</div>
 
-		<div class="movie">
-		<img class = "movie__image" src="Independence Day.jpeg">
-		<h2>Independence Day</h2>
-		<p>Action</p>
-		<p>120 min</p>
-		</div>
 
-		<div class = "movie">
-		<img class = "movie__image" src="The Wolverine.jpeg">
-		<h2>The Wolverine</h2>
-		<p>Action, Adventure</p>
-		<p>126 min</p>
-		</div>
+		<ul class= "header__row">
+			<li>Release Date</li>
+			<li> | </li>
+			<li>Popularity</li>
+
+		</ul>
 
 	</div>
 
+<!-- Rows of Movies   -->
+	<div class="row">
+
+		<div class="movie">
+			<img class = "movie__image" src="The_Wolverine.jpeg">
+			<h2 class = "movie__title">The Wolverine</h2>
+			<p class = "move__genre">Action, Adventure</p>
+			<p class = "movie__time">126 min</p>
+		</div>
+
+		<div class="movie">
+			<img class = "movie__image" src="Independence_Day.jpeg">
+			<h2 class = "movie__title">Independence Day</h2>
+			<p class = "move__genre">Action</p>
+			<p class = "movie__time">120 min</p>
+		</div>
+
+		<div class = "movie">
+			<img class = "movie__image" src="The_Wolverine.jpeg">
+			<h2 class = "movie__title">The Wolverine</h2>
+			<p class = "move__genre">Action, Adventure</p>
+			<p class = "movie__time">126 min</p>
+		</div>
+
+		<div class="movie">
+			<img class = "movie__image" src="Independence_Day.jpeg">
+			<h2 class = "movie__title">Independence Day</h2>
+			<p class = "move__genre">Action</p>
+			<p class = "movie__time">120 min</p>
+		</div>
+
+		<div class="movie">
+			<img class = "movie__image" src="Independence_Day.jpeg">
+			<h2 class = "movie__title">Independence Day</h2>
+			<p class = "move__genre">Action</p>
+			<p class = "movie__time">120 min</p>
+		</div>
+	</div>
+
+<!-- Start of chat bar  -->
+
+	<div class="chat">
+
+		<div class = "chat__user">
+			<ul>
+				<li>Nels Findley</li>
+			</ul>
+		</div>
+
+		<div class = "chat__online">
+
+			<h2 class = "chat__title">Online</h2>
+			<ul>
+				<li>Victor Erixon</li>
+					<p class = "chat__watching">The Great Gatsby</p>
+				<li>Gustav Butlex</li>
+					<p class = "chat__watching">Wolverine</p>
+			</ul>
+
+			<h2 class = "chat__title">Offline</h2>
+
+			<ul>
+				<li>Bill S Kenney</li>
+					<p class = "chat__watching">Jobs</p>
+				<li>Charlie Waite</li>
+					<p class = "chat__watching">Pacific Rim</p>
+			</ul>
+
+		</div>
+		
+
+
+
+
+
+
+
+
+
+
+	</div>
 </body>
 </html>
