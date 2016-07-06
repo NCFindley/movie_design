@@ -23,7 +23,7 @@
 
 .search{
 
-	background-color: red;
+	background-color: #C02942;
 
 }
 
@@ -67,13 +67,10 @@
 	list-style-image: url('new_release.png');
 }
 
-.l-main__item{
+.l-navbar__item{
 
 	padding: 5%;
 	font-size: 12px;
-
-
-
 }
 .main__link{
 	color: white;
@@ -91,15 +88,24 @@
 	font-size: 12px;
 }
 
+.circles__must{
+	list-style-image: url('blue.png');
+}
+.circles__best{
+	list-style-image: url('green.png');
+}
 .collections{
 
 
 
 }
 
-.collections__item{
-	padding: 5%;
-	font-size: 12px;
+.collections__one{
+	list-style-image: url('blue_red.png');
+}
+
+.collections__two{
+	list-style-image: url('yellow_blue.png');
 }
 
 .middle-content{
@@ -164,25 +170,42 @@
 .sortLinks_popularity{
 	display: inline-block;
 }
-.chat{
+.rightBar{
 
 	flex: 0 0 12em;
+	background-color: #D5DED9;
+}
+
+.chat{
+	background: #A7DBD8;
 }
 
 .chat__user{
-	background: green;
+	
 }
 
-.chat__online{
+.chat__status{
 
-	background-color: white;
+	background-color: #D5DED9;
 }
+
 
 .chat__title{
 	font-size: 12px;
 
 
 }
+
+.chat__list{
+	direction: rtl;
+}
 .chat__watching{
 
+}
+
+.l-chat__watching{
+
+	margin: 0%;
+	font-family: "Courier New",Courier,monospace;
+	font-size: 10px;
 }
