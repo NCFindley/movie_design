@@ -114,6 +114,44 @@
 	flex-direction: column;
 
 
+
+
+
+}
+
+.header{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	
+
+}
+
+.sortLinks{
+	
+	display: flex;
+	
+	list-style: none;
+	
+	display: inline-block;
+
+}
+
+.l-header{
+	padding-top: 10%;
+}
+
+.sortLinks__release{
+	display: inline-block;
+
+}
+
+.sortLinks__divider{
+	display: inline-block;
+}
+
+.sortLinks_popularity{
+	display: inline-block;
 }
 
 
@@ -144,32 +182,7 @@
 .movie__time{
 	font-size: 12px;
 }
-.header{
-	
-	padding: 0;
-	margin: 0;
-}
 
-.sortLinks{
-	
-
-	list-style: none;
-
-
-
-}
-.sortLinks__release{
-	display: inline-block;
-
-}
-
-.sortLinks__divider{
-	display: inline-block;
-}
-
-.sortLinks_popularity{
-	display: inline-block;
-}
 .rightBar{
 
 	flex: 0 0 12em;
@@ -198,6 +211,27 @@
 
 .chat__list{
 	direction: rtl;
+}
+
+.chat__socialOne{
+	list-style-image: url('chat_green.png');
+
+}
+.chat__socialTwo{
+	list-style-image: url('chat_red.png');
+
+	
+}
+
+.chat__offline{
+	list-style-image: url('chat_gray.png');
+
+
+}
+.chat__offline{
+	list-style-image: url('chat_gray.png');
+	
+	
 }
 .chat__watching{
 

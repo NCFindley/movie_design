@@ -49,17 +49,22 @@
 		<div class = "middle-content">
 
 		<!-- Header   -->
-			<div class = "header">
+			<div class="header">
 				<h1>Discover</h1>
-
-				<ul class= "sortLinks">
-					<li class="sortLinks__release">Release Date</li>
-					<li class="sortLinks__divider"> | </li>
-					<li class="sortLinks_popularity">Popularity</li>
-
+				
+				<ul class= "l-header sortLinks">
+					<li class=" sortLinks__release">Release Date</li>
+					<li class=" sortLinks__divider"> | </li>
+					<li class=" sortLinks_popularity">Popularity</li>
 				</ul>
 
+				<div class="l-header">
+				<img class = "header__refresh" src="refresh.png">
+				<img class = "header__stop" src="stop.png">
+				</div>
 			</div>
+
+			
 
 	<!-- Rows of Movies   -->
 			<div class="movie-content">
@@ -152,18 +157,18 @@
 					<h2 class = "chat__title">Online</h2>
 
 					<ul class="chat__list">
-						<li class = "l-navbar__item">Victor Erixon</li>
+						<li class = "chat__socialOne l-navbar__item">Victor Erixon</li>
 							<p class = "l-chat__watching">The Great Gatsby</p>
-						<li class="l-navbar__item">Gustav Butlex</li>
+						<li class="chat__socialTwo l-navbar__item">Gustav Butlex</li>
 							<p class = "l-chat__watching">Wolverine</p>
 					</ul>
 				
 					<h2 class = "chat__title">Offline</h2>
 
 					<ul class="chat__list">
-						<li class="l-navbar__item">Bill S Kenney</li>
+						<li class=" chat__offline l-navbar__item">Bill S Kenney</li>
 							<p class = "l-chat__watching">Jobs</p>
-						<li class="l-navbar__item">Charlie Waite</li>
+						<li class=" chat__offline l-navbar__item">Charlie Waite</li>
 							<p class = "l-chat__watching">Pacific Rim</p>
 					</ul>
 				</div>
