@@ -1,11 +1,23 @@
-a:visited {
-	color: white;
+
+.super-container{
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
 }
+
+.container{
+	display: flex;
+	flex: 1;
+
+}
+
+
 
 .navbar{
 
 	background-color: black;
-	width: 175px;
+	
+	 flex: 0 0 12em;
 
 }
 
@@ -28,12 +40,34 @@ a:visited {
 }
 
 .main{
-	color: white;
+	
 
 
 }
 
-.main__item{
+
+.main__play{
+		list-style-image: url('play.gif');
+}
+
+.main__discover{
+	list-style-image: url('discover.png');
+}
+
+.main__activity{
+	list-style-image: url('activity.png');
+
+}
+
+.main__topChart{
+	list-style-image: url('top_charts.png');
+}
+
+.main__newRelease{
+	list-style-image: url('new_release.png');
+}
+
+.l-main__item{
 
 	padding: 5%;
 	font-size: 12px;
@@ -41,9 +75,13 @@ a:visited {
 
 
 }
+.main__link{
+	color: white;
+}
 
 .circles{
-	color: white;
+	
+
 
 
 }
@@ -54,7 +92,7 @@ a:visited {
 }
 
 .collections{
-	color: white;
+
 
 
 }
@@ -64,20 +102,24 @@ a:visited {
 	font-size: 12px;
 }
 
-
-.row{
+.middle-content{
 	display: flex;
-	flex-flow: row wrap;
-	position: absolute;
-	top:  20%;
-	left: 25%;
+	
+	flex-direction: column;
+
 
 }
 
+
+.movie-content{
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.l-movie{
+	margin: 20px;
+}
 .movie{
-	padding: 20px;
-
-
 
 }
 .movie__image{
@@ -97,33 +139,43 @@ a:visited {
 	font-size: 12px;
 }
 .header{
-	position: absolute;
-	top: 5%;
-	left: 25%;
+	
+	padding: 0;
+	margin: 0;
 }
 
-.header__row{
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: space-between;
-	list-style-type: none;
+.sortLinks{
+	
+
+	list-style: none;
+
+
+
+}
+.sortLinks__release{
+	display: inline-block;
+
 }
 
+.sortLinks__divider{
+	display: inline-block;
+}
+
+.sortLinks_popularity{
+	display: inline-block;
+}
 .chat{
-	position: absolute;
-	top:  0%;
-	right: 2%;
-	background-color: blue;
-	width: 175px;
+
+	flex: 0 0 12em;
 }
 
 .chat__user{
-
+	background: green;
 }
 
 .chat__online{
 
-
+	background-color: white;
 }
 
 .chat__title{
