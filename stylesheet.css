@@ -11,8 +11,6 @@
 
 }
 
-
-
 .navbar{
 
 	background-color: black;
@@ -46,32 +44,37 @@
 }
 
 
-.main__play{
+.main-play{
 		list-style-image: url('play.gif');
 }
 
-.main__discover{
+.main-discover{
 	list-style-image: url('discover.png');
 }
 
-.main__activity{
+.main-activity{
 	list-style-image: url('activity.png');
 
 }
 
-.main__topChart{
+.main-topChart{
 	list-style-image: url('top_charts.png');
 }
 
-.main__newRelease{
+.main-newRelease{
 	list-style-image: url('new_release.png');
 }
 
 .l-navbar__item{
 
 	padding: 5%;
+	
+}
+
+.navbar__text{
 	font-size: 12px;
 }
+
 .main__link{
 	color: white;
 }
@@ -123,6 +126,8 @@
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
+	align-items: baseline;
+
 	
 
 }
@@ -130,15 +135,13 @@
 .sortLinks{
 	
 	display: flex;
-	
 	list-style: none;
-	
 	display: inline-block;
 
 }
 
 .l-header{
-	padding-top: 10%;
+	
 }
 
 .sortLinks__release{
@@ -187,14 +190,16 @@
 
 	flex: 0 0 12em;
 	background-color: #D5DED9;
+	
 }
 
 .chat{
+	margin: 0;
 	background: #A7DBD8;
 }
 
 .chat__user{
-	
+	margin: 0;
 }
 
 .chat__status{
